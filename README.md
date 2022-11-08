@@ -1,1 +1,1 @@
-# private-detection
+# content-moderation
