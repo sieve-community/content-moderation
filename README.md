@@ -1,4 +1,4 @@
-# private-detection
+# content-moderation
 
 Adapted from https://github.com/bumble-tech/private-detector. 
 
