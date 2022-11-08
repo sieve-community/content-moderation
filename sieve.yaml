@@ -1,0 +1,19 @@
+build:
+  gpu: true
+  python_packages:
+  - tensorflow-gpu==2.4.0
+  - pandas==1.1.5
+  - openpyxl==3.0.7
+  - tensorflow_addons==0.13.0
+  - protobuf==3.20.1
+  - pyyaml==6.0
+  - opencv_python_headless==4.5.5.64
+  python_version: '3.8'
+  system_packages:
+  - libgl1-mesa-glx
+  - libglib2.0-0
+iteration: video
+model_name: content-moderator
+model_version: 11-8-score-save-change-6
+predict: predictor.py:ContentModerator
+private: false
